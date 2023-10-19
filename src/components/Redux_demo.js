@@ -14,25 +14,25 @@ function Redux_demo() {
         <h1>{state}</h1>
         <div className="pt-4">
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch(INC(100))}
           >
             Increment
           </button>
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch(DEC(50))}
           >
             Decrement
           </button>
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch(MUL(5))}
           >
             Multiply
           </button>
           <button
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch(DIV(200))}
           >
             Divide

@@ -24,25 +24,25 @@ function Reducer_demo() {
         <h1>{state}</h1>
         <div className="pt-4">
           <a
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch({ type: "INC" })}
           >
             Increment
           </a>
           <a
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch({ type: "DEC" })}
           >
             Decrement
           </a>
           <a
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch({ type: "MUL" })}
           >
             Multiply
           </a>
           <a
-            className="btn btn-primary mx-2"
+            className="btn btn-primary m-2"
             onClick={() => dispatch({ type: "DIV" })}
           >
             Divide
